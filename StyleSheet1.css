@@ -1,0 +1,280 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img//school-bac.png);
+}
+/*MA=ainPage*/
+.main {
+    text-align: center;
+    margin-top: 300px;
+    font-family: 'Sans Serif Collection';
+    font-weight: bold;
+    font-size: x-large;
+    float: left;
+    margin-left: 774px;
+    border: none;
+}
+
+.main h1 {
+    color: lightcoral;
+}
+
+.main h2 {
+    color: lightgrey;
+}
+
+/*Header*/
+
+.header {
+    text-align: center;
+    background-color: lightgreen;
+    line-height: 75px;
+    font-size: x-large;
+
+}
+
+.header p {
+    color: lightcoral;
+}
+
+/*Nav*/
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    direction: rtl;
+    font-family: David;
+    margin-top: -78px;
+}
+
+.nav #Login {
+    padding: 25px;
+    background-color: lightgreen;
+    color: whitesmoke;
+    border: none;
+    font-size: x-large;
+}
+
+.nav #Soon1 {
+    padding: 25px;
+    background-color: lightgreen;
+    color: whitesmoke;
+    border: none;
+    font-size: x-large;
+}
+
+.nav #Soon2 {
+    padding: 25px;
+    background-color: lightgreen;
+    color: whitesmoke;
+    border: none;
+    font-size: x-large;
+}
+
+.nav #Login:hover {
+    background-color: lightcoral;
+    transition: 0.6s ease-in-out;
+}
+.nav #Soon1:hover {
+    background-color: lightcoral;
+    transition: 0.6s ease-in-out;
+}
+.nav #Soon2:hover {
+    background-color: lightcoral;
+    transition: 0.6s ease-in-out;
+}
+
+
+/*Login Page logform*/
+
+.logform {
+    margin-left: 749px;
+    margin-top: 265px;
+    float: left;
+    line-height: 50px;
+    font-family: David;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.logform #nametext {
+    color: gray;
+    font-size: x-large;
+}
+
+.logform #passtext {
+    color: gray;
+    font-size: x-large;
+}
+
+.logform #logbtn {
+    position: relative;
+    left: 139px;
+    top: 21px;
+    border: none;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.logform #adminbtn {
+    position: relative;
+    top: 21px;
+    left: 203px;
+    font-size: x-large;
+    border: none;
+    padding: 10px;
+}
+
+.logform #logbtn:hover {
+    background-color: lightcoral;
+    transition: 0.6s ease-in-out;
+}
+.logform #adminbtn:hover {
+    background-color: lightcoral;
+    transition: 0.6s ease-in-out;
+}
+
+.logform #error {
+    margin-left: -209px;
+    position: relative;
+    left: 298px;
+    top: 16px;
+    color: lightcoral;
+}
+
+/*LoginNav*/
+
+.loginNav {
+    direction: rtl;
+    margin-top: -76px;
+}
+
+.loginNav ul {
+    list-style-type: none;
+}
+
+.loginNav #home {
+    font-family: David;
+    font-size: x-large;
+    background-color: lightgreen;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    padding: 26px;
+}
+
+.loginNav #home:hover {
+    background-color: lightcoral;
+    transition: 0.6s ease-in-out;
+}
+
+/*Loginimg*/
+
+.Loginimg {
+    position: relative;
+    top: -77px;
+}
+
+/*Studes Page*/
+
+.StudetnNav ul {
+    display: flex;
+    border: none;
+    list-style-type: none;
+    direction: rtl;
+    font-family: 'Sans Serif Collection';
+    margin-top: -78px;
+}
+
+.StudetnNav #Ppage {
+    padding: 25px;
+    background-color: lightgreen;
+    color: whitesmoke;
+    border: none;
+    font-size: x-large;
+}
+.StudetnNav #plantime {
+    padding: 25px;
+    background-color: lightgreen;
+    color: whitesmoke;
+    border: none;
+    font-size: x-large;
+}
+.StudetnNav #grades {
+    padding: 25px;
+    background-color: lightgreen;
+    color: whitesmoke;
+    border: none;
+    font-size: x-large;
+}
+.StudetnNav #quit {
+    padding: 25px;
+    background-color: lightgreen;
+    color: whitesmoke;
+    border: none;
+    font-size: x-large;
+}
+.StudetnNav #Ppage:hover {
+    transition: 0.6s ease-in-out;
+    background-color: lightcoral;
+}
+.StudetnNav #plantime:hover {
+    transition: 0.6s ease-in-out;
+    background-color: lightcoral;
+}
+.StudetnNav #grades:hover {
+    transition: 0.6s ease-in-out;
+    background-color: lightcoral;
+}
+.StudetnNav #quit:hover {
+    transition: 0.6s ease-in-out;
+    background-color: lightcoral;
+}
+
+/*Animated images div*/
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.animated-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation-name: slidein;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(0%);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+
